@@ -1,0 +1,98 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.h3, h3 {
+  font-size: 24px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  list-style-type: disc; /* Show bullets by default */
+}
+
+li:hover {
+  border: 1px solid #333;
+  list-style-type: none; /* Hide bullets for active items */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.category-list, .item-list {
+  margin-top: 20px;
+}
+
+.category-list ul {
+  margin-left: 0;
+}
+
+.category-list li {
+  margin-bottom: 5px;
+}
+
+.item-list table {
+  width: 100%;
+}
+
+.item-list th, .item-list td {
+  padding: 10px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.col-8 {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+  box-sizing: border-box;
+  padding: 10px;
+}
